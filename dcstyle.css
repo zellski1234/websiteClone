@@ -1,0 +1,284 @@
+
+/* everything */
+*{
+    margin: 0;
+    padding: 0; 
+    /* border: 1px solid black; */
+    
+}
+
+
+@font-face {
+    font-family: "Whitney";
+    src: url("/whitney/whitneybold.otf") format("otf"),
+  }  
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto:wght@900&display=swap');
+
+body{
+    height: 100vh;
+}
+
+
+/* ------------------------------------------------------------------------------------ */
+/* part 1 of page */
+.part1page{
+    height: 630px;
+}
+
+            .container1{
+                display: flex;
+                flex-wrap: wrap;
+                background-image: url("images/background.svg");
+                background-color: #404eed;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                height: auto;
+                width: 100vw;
+                justify-content: center;
+                padding: 0px 0px 0px 0px;
+            }
+                    /* contains the whole top */
+                    .topbar{
+                        display: flex;
+                        width: 100%;
+                        justify-content: center;
+                    }
+                            /* logo main div */
+                            .toplogodiv{
+                                width: 25%;
+                                padding: 12px 0px 0px 200px;
+                                justify-content: center;
+                            }
+                                    /* the discord logo */
+                                    .logoimg{
+                                        width: 130px;
+                                        padding: 5px 10px 0px 2px;
+                                    }
+                            
+                            /* main nav */
+                            .navdiv{
+                                display: flex;
+                                width: 50%;
+                                padding: 10px 200px 0px 0px;
+                                justify-content: center;
+                            }
+                                    /* overall navigation bar  */
+                                    .navbar{
+                                        padding: 12px 20px 20px 20px;
+                                    }
+                                            /* main navigation bar links */
+                                            .navbar a {
+                                                color: white;
+                                                padding: 10px 20px;
+                                                font-weight: 600;
+                                                font-size: 15px;
+                                                text-decoration: none;
+                                                font-family: "Whitney", sans-serif;
+                                                line-height: 1.8;
+                                            }
+
+                            /* button divder*/
+                            .topbtn{
+                                width: 25%;
+                            }
+                                    /* open discord button */
+                                    .opendc{
+                                        color: black;
+                                        text-align: center;
+                                        padding: 10px 14px 8px 14px;
+                                        margin: 16px;
+                                        border: none;
+                                        background-color: white;
+                                        border: 2px solid white;
+                                        border-radius: 50px;
+                                        font-size: 14px;
+                                    }
+
+                    /* title */
+                    .main{
+                        width: 100%;     
+                        justify-content: center;  
+                        padding: 100px 0px 0px 0px;          
+                    }         
+                            h1.imagine{
+                                text-transform: Uppercase;
+                                font-family: "Whitney", sans-serif;
+                                color: white;
+                                font-weight: bold;
+                                text-align: center;
+                                font-size: 68px;
+                            }
+                    /* description */
+                    .maindescbox{
+                        display: flex;
+                        width: 100%;
+                        justify-content: center;
+                    }
+                            .maindesc{
+                                padding: 40px 0px 0px 0px;
+                                max-width: 750px;
+                                
+                            }
+                                    p.desc1{
+                                        font-family: 'Quicksand', sans-serif;
+                                        color: white;
+                                        text-align: center;
+                                        justify-content: center;
+                                        font-size: 18px;
+                                        padding: 0px;
+                                        line-height: 1.8;
+                                    }
+
+                    .bottombar{
+                        display: flex;
+                        width: 100%;
+                        justify-content: center;
+                    }
+                            /* dowloaded buttons */
+                            .mainbtndiv{
+                                width: 100vw;
+                                display: flex;
+                                flex-wrap: wrap;
+                                height: 240px;
+                                justify-content: center;
+                            }
+                                    /* empty collumns */
+                                    .emptycol1{
+                                        width: 25%;
+                                        background-image: url("images/relaxedguy.png");
+                                        background-repeat: no-repeat;
+                                        background-position: center;
+                                        background-size: cover;
+                                    }
+                                    .mainbtn1{
+                                        max-width: 25%;
+                                        text-align: center;
+                                        /* background-color: #23272A; */
+                                        padding: 20px 0px 20px 70px;
+                                    }       
+                                            /* main downloadbutton */
+                                            .downloadbtn{
+                                                color: black;
+                                                text-align: center;
+                                                padding: 13px 30px 13px 30px;
+                                                margin: 16px;
+                                                border: none;
+                                                background-color: white;
+                                                border: 2px solid white;
+                                                border-radius: 50px;
+                                                font-size: 18px;
+                                                font-family: "Whitney", sans-serif;
+                                            }
+                                            img.downicon{
+                                                width: 18px;
+                                                padding: 0px 12px 0px 0px;
+                                            }
+                                    .mainbtn2{
+                                        max-width: 25%;
+                                        text-align: center;
+                                        padding: 20px 70px 20px 0px;
+                                    }       
+                                            /* main open discord in broswer */
+                                            .openbtn{
+                                                color: white;
+                                                text-align: center;
+                                                padding: 13px 30px 13px 30px;
+                                                margin: 16px;
+                                                border: none;
+                                                background-color: #23272a;
+                                                border: 2px solid #23272a;
+                                                border-radius: 50px;
+                                                font-size: 18px;
+                                                font-family: "Whitney", sans-serif;                                          
+                                            }
+                                    .emptycol2{
+                                        width: 25%;
+                                        background-image: url("images/drinkingguy.svg");
+                                        background-repeat: no-repeat;
+                                        background-position: center;
+                                        background-size: cover;                                
+                                    }
+                                    @media only screen and (max-width: 1567px){
+                                        .emptycol2{ 
+                                           width: 0%;
+                                         }
+                                         .emptycol1{
+                                            width: 0%;
+                                         }
+                                      }
+                    
+/* ------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------ */
+/* part 2 of page */
+.part2page{
+    width: 100vw;
+    padding: 0px 0px 0px 0px;
+    background-color: white;    
+}
+            .container2{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                padding: 70px 0px 70px 0px;
+            }
+                        /* left column image */
+                        .columnleft1{
+                            margin: 50px;
+                                              
+                        }       
+                                /* image of relaxed */
+                                .studygroup{
+                                    width: 665px;
+                                    height: auto;
+                                    padding: 0px 0px 0px 50px;
+                                }
+
+                        /* right column desc and title */
+                        .columnright1{
+                            margin: 60px 100px 40px 70px;
+                            max-width: 50%;
+                          
+                        }
+                                /* description title */
+                                h2.inviteonly{
+                                   font-size: 50px; 
+                                   font-weight: bold;
+                                   max-width: 370px;
+                                   padding: 10px;
+                                   vertical-align: baseline;
+                                   font-family: 'Roboto', sans-serif;
+                                   color: #23272A;
+                                   
+                                }
+                                /* desccription */
+                                p.dcinfo1{
+                                   font-size: 18px; 
+                                   max-width: 370px;
+                                   font-weight: lighter;
+                                   padding: 10px;
+                                   vertical-align: baseline;
+                                   font-family: 'Quicksand', sans-serif;
+                                   color: #23272A;
+                                   line-height: 1.8;
+                                }
+/* ------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------ */
+/* part 3 of page */
+.part3page{
+    height: 630px;
+    width: 100vw;
+}
+
+            .container3{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                background-color: #f6f6f6;
+            }
+                            
+
+
+
+
