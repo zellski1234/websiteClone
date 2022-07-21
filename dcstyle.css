@@ -200,14 +200,15 @@ body{
                                         background-position: center;
                                         background-size: cover;                                
                                     }
-                                    @media only screen and (max-width: 1567px){
-                                        .emptycol2{ 
-                                           width: 0%;
-                                         }
-                                         .emptycol1{
-                                            width: 0%;
-                                         }
-                                      }
+        /* hides images */
+        @media only screen and (max-width: 1567px){
+            .emptycol2{ 
+                width: 0%;
+                }
+                .emptycol1{
+                width: 0%;
+                }
+        }
                     
 /* ------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------ */
@@ -215,7 +216,9 @@ body{
 .part2page{
     width: 100vw;
     padding: 0px 0px 0px 0px;
-    background-color: white;    
+    background-color: white;
+    flex-wrap: wrap;
+    justify-content: center;
 }
             .container2{
                 display: flex;
@@ -267,16 +270,61 @@ body{
 /* ------------------------------------------------------------------------------------ */
 /* part 3 of page */
 .part3page{
-    height: 630px;
     width: 100vw;
+    padding: 30px 0px 100px 0px;
     background-color: #f6f6f6;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
+            /* main divider */
             .container3{
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
-            }
+                padding: 70px 0px 70px 0px;
+            }   
+                    /* part 3 left column */
+                    .columnleft2{
+                        margin: 80px 120px 40px 70px;
+                        padding: 20px 10px 0px 20px;
+                        max-width: 50%;
+                    }
+                            /* main hanging out title */
+                            h2.hangingOut{
+                                font-size: 50px; 
+                                font-weight: bold;
+                                max-width: 370px;
+                                padding: 0px 0px 0px 40px;
+                                vertical-align: baseline;
+                                font-family: 'Roboto', sans-serif;
+                                color: #23272A;
+                            }
+                            /* main hanging out desc */
+                            p.dcinfo2{
+                                font-size: 18px; 
+                                max-width: 370px;
+                                font-weight: lighter;
+                                padding: 20px 0px 0px 40px;
+                                vertical-align: baseline;
+                                font-family: 'Quicksand', sans-serif;
+                                color: #23272A;
+                                line-height: 1.8;
+                            }
+                    /* main hanging image right column */
+                    .columnright2{
+                        padding: 1px 25px 0px 20px                 
+                    }
+                            /* main hanging out image */
+                            .imgHanging{
+                                width: 670px;
+                                height: auto;
+                                padding: 0px 100px 100px 0px;
+                                margin: 20px 20px 0px -20px;
+                            }
+/* ------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------ */
+/* part 4 of page */
                             
 
 
