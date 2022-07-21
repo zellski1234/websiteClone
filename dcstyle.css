@@ -271,7 +271,7 @@ body{
 /* part 3 of page */
 .part3page{
     width: 100vw;
-    padding: 30px 0px 100px 0px;
+    padding: 30px 0px 0px 0px;
     background-color: #f6f6f6;
     flex-wrap: wrap;
     justify-content: center;
@@ -282,7 +282,7 @@ body{
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
-                padding: 70px 0px 70px 0px;
+                padding: 70px 0px 14px 0px;
             }   
                     /* part 3 left column */
                     .columnleft2{
