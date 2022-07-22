@@ -481,10 +481,82 @@ body{
 /* ------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------ */
 /* part 6 of page footer */
+
     footer{
         background-color: #23272a;
-        padding: 245px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100vw;
+        padding: 65px 0px 200px 0px;
     }
+
+            .ftTop{
+                background-color: green;
+                width: 100%;
+                padding: 10px 0px 200px 0px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+                    .col1{
+                        background-color: #23272a;
+                        width: 20%;
+                        margin: 0px 20px 0px 170px;
+                        padding: 0px 0px 10px 0px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                    }
+                            .col1row1{
+                                width: 100%;
+                                margin: 0px 0px 8px 0px;
+                            }
+                                    img.ftTitle{
+                                        width: 220px;
+                                        padding-bottom: 10px;
+                                    }
+
+                            .col1row2{
+                                width: 100%;
+                            }
+                                    img.ftLang{
+                                        width: 135px;
+                                        margin: 0px 0px 0px -8px;
+                                    }
+                    .col2{
+                        background-color: #9dc0a8;
+                        width: 20%;
+                        margin: 10px;
+                    }
+                    .col3{
+                        background-color: #5d5f70;
+                        width: 20%;
+                        margin: 10px;
+                    }
+                    .col4{
+                        background-color: #404eed;
+                        width: 20%;
+                        margin: 10px;
+                    }
+                    .col5{
+                        background-color: #404eed;
+                        width: 20%;
+                        margin: 10px;
+                    }
+
+            .ftMid{
+                background-color: #fff;
+                width: 100%;
+                padding: 10px;
+
+            }
+
+            .ftBot{
+                background-color: aqua;        
+                width: 100%;       
+                padding: 10px; 
+            }
 
 
                             
