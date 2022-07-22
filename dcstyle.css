@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0; 
-    /* border: 1px solid black; */
+    /* outline: 1px solid black; */
     
 }
 
@@ -130,7 +130,7 @@ body{
                                         padding: 0px;
                                         line-height: 1.8;
                                     }
-
+                    /* bottom bar where main buttons are */
                     .bottombar{
                         display: flex;
                         width: 100%;
@@ -325,14 +325,158 @@ body{
 /* ------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------ */
 /* part 4 of page */
+.part4page{
+    width: 100vw;
+    padding: 30px 0px 0px 0px;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+            .container4{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                padding: 70px 0px 82px 0px;
+            }
+                    /* left column image */
+                    .columnleft3{
+                        margin: 50px 0px 0px 55px;
+                        padding: 0px 50px 30px 0px;                                         
+                    }       
+                            /* image of fewfandomexample */
+                            .fewfandomimage{
+                                width: 665px;
+                                height: auto;
+                                padding: 0px 0px 0px 50px;
+                            }
 
-
-
-
-
+                    /* right column desc and title */
+                    .columnright3{
+                        margin: 120px 60px 40px 70px;
+                        max-width: 50%;
+                        padding: 0px 0px;                       
+                    }
+                            /* description title for fewfandom */
+                            h2.fewfandom{
+                               font-size: 50px; 
+                               font-weight: bold;
+                               max-width: 370px;
+                               padding: 10px;
+                               vertical-align: baseline;
+                               font-family: 'Roboto', sans-serif;
+                               color: #23272A;
+                            }
+                            /* desccription for few fandom */
+                            p.dcinfo3{
+                               font-size: 18px; 
+                               max-width: 370px;
+                               font-weight: lighter;
+                               padding: 10px;
+                               vertical-align: baseline;
+                               font-family: 'Quicksand', sans-serif;
+                               color: #23272A;
+                               line-height: 1.8;
+                            }
 /* ------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------ */
 /* part 5 of page */
+.part5page{
+    background-color: #f6f6f6;
+    width: 100vw;
+}       
+        .container5{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding-bottom: 24px;
+        }           
+                    /* reliable title div */
+                    .reltitle{
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        margin: 120px 20px 20px 20px;
+                    }
+                            /* RELIABLE TECH FOR STAYING CLOSE title itself */
+                            h2.relh2{
+                                text-transform: Uppercase;
+                                font-family: "Whitney", sans-serif;
+                                color: black;
+                                font-weight: bold;
+                                text-align: center;
+                                font-size: 48px;
+                                width: 950px;
+                            }
+                    /* reliable titles description div */
+                    .reldesc{
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        margin: 0px 0px 25px 0px;
+                    }       
+                            /* reliable titles actual description */
+                            .dcinfo4{
+                                width: 100%;
+                                display: flex;
+                                justify-content: center;
+                                text-align: center;
+                                background-color: rgb(150, 118, 137);
+                                font-size: 18px; 
+                                max-width: 950px;
+                                font-weight: lighter;
+                                padding: 0px;
+                                font-family: 'Quicksand', sans-serif;
+                                color: #23272A;
+                                line-height: 1.7;
+                            }
+                    /* stayclose image div */
+                    .stayclosecol{
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                    }
+                            /* stayclose image */
+                            img.staycloseimg{
+                                width: 1180px;
+                                padding: 0px 40px 0px 20px;
+                            }
+
+
+                    /* readytitle div*/
+                    .readydiv{
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        margin: 80px 10px 0px 0px;
+                    }
+                            img.readyimg{
+                                width: 540px;
+                                margin: 0px 20px 2px 20px;
+                            }
+
+                    /* download button 2 div */
+                    .downloadbtndiv{
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        margin: 10px 0px 100px 0px;
+                    }       
+                            /* button download two at bottom of page */
+                            .downloadbtn2{
+                                color: #fff;
+                                text-align: center;
+                                padding: 15px 30px 15px 30px;
+                                margin: 16px 19px 0px 0px;
+                                border: none;
+                                background-color: #5865f2;
+                                border: 2px solid #5865f2;
+                                border-radius: 50px;
+                                font-size: 19px;
+                                font-family: "Whitney", sans-serif;
+                            }
+
+
 
 
 /* ------------------------------------------------------------------------------------ */
@@ -340,7 +484,7 @@ body{
 /* part 6 of page footer */
     footer{
         background-color: #23272a;
-        padding: 240px;
+        padding: 245px;
     }
 
 
