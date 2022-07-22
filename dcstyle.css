@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0; 
-    outline: 1px solid black;
+    /* outline: 1px solid black; */
     
 }
 
@@ -38,18 +38,21 @@ body{
                 width: 100vw;
                 justify-content: center;
                 padding: 0px 0px 0px 0px;
+                position:absolute;
             }
                     /* contains the whole top */
                     .topbar{
                         display: flex;
                         width: 100%;
                         justify-content: center;
+                        position: absolute;
                     }
                             /* logo main div */
                             .toplogodiv{
                                 width: 25%;
                                 padding: 12px 0px 0px 200px;
                                 justify-content: center;
+                                
                             }
                                     /* the discord logo */
                                     .logoimg{
@@ -94,6 +97,7 @@ body{
                                         border: 2px solid white;
                                         border-radius: 50px;
                                         font-size: 14px;
+                                        position: absolute;
                                     }
 
                     /* title */
@@ -488,7 +492,7 @@ body{
         flex-wrap: wrap;
         justify-content: center;
         width: 100%;
-        padding: 65px 0px 200px 0px;
+        padding: 65px 0px 0px 0px;
     }
 
             .ftTop{
@@ -519,11 +523,14 @@ body{
                             }
                                     img.ftLang{
                                         width: 135px;
-                                        margin: 0px 0px 0px -8px;
+                                        margin: -20px 0px 0px -8px;
+                                        padding: 0px 0px 20px 0px;
                                     }
 
                             .col1row3{
                                 width: 100%;
+                                margin: -30px 0px 0px 0px;
+                                padding: 0px 0px 20px 0px;
                             }
                                     img.fticon1{
                                         width: 22px;
@@ -541,22 +548,29 @@ body{
                                         width: 26px;
                                         padding: 10px 12px 8px 12px;
                                     }
+                    /* Products */
                     .col2{
                         width: 20%;
                         margin: 10px 10px 0px 200px; 
+                        padding-right: 60px;
                     }
+                    /* Company */
                     .col3{
                         width: 20%;
                         margin:  10px 10px 0px 50px;
+                        padding-right: 50px;
+                        
                     }
+                    /* Resources*/
                     .col4{
-
                         width: 20%;
                         margin:  10px 10px 0px 50px;
+                        padding-right: 0px;
                     }
+                    /* Polices */
                     .col5{
                         width: 20%;
-                        margin:  10px 300px 0px 50px;
+                        margin:  10px 300px 0px 100px;
                     }
 
                                 /* footer links categories */
@@ -591,12 +605,42 @@ body{
                         width: 1200px;
                         text-align: center;
                     }
-
-            .ftBot{
-                background-color: aqua;        
-                width: 100%;       
-                padding: 10px; 
+            
+            /* Bottom Footer Div */
+            .ftBot{        
+                width: 77%;       
+                padding: 0px 0px 30px 0px; 
+                display: flex;
             }
+                    /* bottom logo divider */
+                    .botlogodiv{
+                        width: 50%;
+                    }
+                            /* bottom logo */
+                            img.logoimgBot{
+                                width: 130px;
+                                padding: 20px 0px 0px 0px;
+                            }
+                    /* bottom button divider */
+                    .botbtn{
+                        width: 50%;
+                        display: flex;
+                        justify-content: end;
+                    }       
+                            /* bottom button */
+                            .botopendc{
+                                color: white;
+                                text-align: center;
+                                padding: 10px 14px 8px 14px;
+                                margin: 16px;
+                                border: none;
+                                background-color: #5865f2;
+                                border: 2px solid #5865f2;
+                                border-radius: 50px;
+                                font-size: 14px;
+                            }
+
+
 
 
                             
