@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0; 
-    /* outline: 1px solid black; */
+    outline: 1px solid black;
     
 }
 
@@ -487,26 +487,23 @@ body{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        width: 100vw;
+        width: 100%;
         padding: 65px 0px 200px 0px;
     }
 
             .ftTop{
-                background-color: green;
                 width: 100%;
-                padding: 10px 0px 200px 0px;
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
+                display:flex;
+                padding-bottom: 20px;
             }
                     .col1{
                         background-color: #23272a;
                         width: 20%;
-                        margin: 0px 20px 0px 170px;
-                        padding: 0px 0px 10px 0px;
+                        padding: 0px 0px 50px 0px;
                         display: flex;
                         flex-wrap: wrap;
                         justify-content: center;
+                        margin: 0px 0px 0px 200px;
                     }
                             .col1row1{
                                 width: 100%;
@@ -524,33 +521,76 @@ body{
                                         width: 135px;
                                         margin: 0px 0px 0px -8px;
                                     }
+
+                            .col1row3{
+                                width: 100%;
+                            }
+                                    img.fticon1{
+                                        width: 22px;
+                                        padding: 12px 12px 12px 0px;
+                                    }
+                                    img.fticon2{
+                                        width: 22px;
+                                        padding: 12px;
+                                    }
+                                    img.fticon3{
+                                        width: 22px;
+                                        padding: 12px;
+                                    }
+                                    img.fticon4{
+                                        width: 26px;
+                                        padding: 10px 12px 8px 12px;
+                                    }
                     .col2{
-                        background-color: #9dc0a8;
                         width: 20%;
-                        margin: 10px;
+                        margin: 10px 10px 0px 200px; 
                     }
                     .col3{
-                        background-color: #5d5f70;
                         width: 20%;
-                        margin: 10px;
+                        margin:  10px 10px 0px 50px;
                     }
                     .col4{
-                        background-color: #404eed;
+
                         width: 20%;
-                        margin: 10px;
+                        margin:  10px 10px 0px 50px;
                     }
                     .col5{
-                        background-color: #404eed;
                         width: 20%;
-                        margin: 10px;
+                        margin:  10px 300px 0px 50px;
                     }
 
+                                /* footer links categories */
+                                h3{
+                                    font-family: 'Quicksand', sans-serif;
+                                    font-size: 14px;
+                                    color: #3e52e2;
+                                    font-weight: 400;
+                                    margin-bottom: 10px;
+                                }
+                                /* footer links */
+                                ul li{
+                                    text-decoration: none;
+                                    list-style: none;
+                                    font-family: 'Quicksand', sans-serif;
+                                    font-size: 16px;
+                                    line-height: 2;
+                                    color: rgba(255, 255, 255, 0.906);
+                                    font-weight: lighter;
+                                }
+            /* blue line divider */
             .ftMid{
-                background-color: #fff;
                 width: 100%;
                 padding: 10px;
-
+                margin: 0px 0px 0px 0px;
+                display: flex;
+                justify-content: center;
             }
+                    /* div line divider */
+                    .line{
+                        border-bottom: 2px solid #4e58cca0;
+                        width: 1200px;
+                        text-align: center;
+                    }
 
             .ftBot{
                 background-color: aqua;        
